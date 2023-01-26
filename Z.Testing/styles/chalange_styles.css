@@ -1,0 +1,57 @@
+* {background-color: pink}
+* {border: 2px solid blue;}
+
+header h1 {
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 36px;
+}
+
+header p {
+    width: 32%;
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+}
+
+.class1 {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+main ol {
+    width: 32%;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+    color: black;
+    font-size: 18px;
+}
+
+img {
+    width: 14%;
+    display: block;
+    margin: 0 auto;
+}
+
+.class2 {
+    width: 20%;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+}
+
+footer {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+}

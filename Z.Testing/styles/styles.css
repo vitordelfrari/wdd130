@@ -3,7 +3,43 @@
     line-height: 1.5em;
 }
 
-#active {
-    background-color: rgb(241, 35, 35);
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    width: 80%;
+}
+
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+a {
+    font-size: 1.5em;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav, footer {
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+a:hover {
+    background-color: white;
     color: steelblue;
 }
