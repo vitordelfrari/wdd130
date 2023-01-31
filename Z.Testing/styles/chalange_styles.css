@@ -1,4 +1,38 @@
-* {background-color: pink}
+* {background-color: gray;}
+* {border: 2px solid blue;}
+
+#img_1 {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+}
+
+#img_2 {
+    border-radius: 50%;
+    border: 10px solid darkslategray;
+    width: 60%;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 30px;
+    margin: 0px;
+    border: 0px;
+}
+
+
+
+/* <!-- Chalange-Week#04 --> */
+
+/* * {background-color: pink}
 * {border: 2px solid blue;}
 
 header h1 {
@@ -54,4 +88,4 @@ footer {
     text-align: center;
     color: black;
     font-size: 14px;
-}
+} */
