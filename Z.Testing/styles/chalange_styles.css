@@ -1,4 +1,41 @@
-* {background-color: gray;}
+/* <!-- Chalange-Week#06 --> */
+.home_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: lightgray;
+}
+
+#img_1 {
+    grid-column: 1;
+    grid-row: 1/4;
+    align-self: center;
+    background-color: white;
+}
+
+.tart {
+    grid-column: 1/4;
+    text-align: center;
+    grid-row: 1;
+    z-index: 1;
+    font-size: 200px;
+}
+
+.cherry {
+    grid-column: 2/4;
+    text-align: center;
+    grid-row: 2;
+    z-index: 1;
+    font-size: 80px;
+    color: darkred;
+    font-weight: bold;
+    vertical-align: center;
+    letter-spacing: 5px;
+}
+
+
+/* <!-- Chalange-Week#05 --> */
+
+/* * {background-color: gray;}
 * {border: 2px solid blue;}
 
 #img_1 {
@@ -26,9 +63,7 @@
     padding: 30px;
     margin: 0px;
     border: 0px;
-}
-
-
+} */
 
 /* <!-- Chalange-Week#04 --> */
 
