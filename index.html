@@ -12,10 +12,33 @@
   <a href="aboutme/index.html">About Me Page</a>             
   <a href="wwr/index.html">White Water Rafting Website</a>
   <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan</a>
-  <a href="positioning/positioning.html">Positioning Activity</a>
+  <a href="positioning.html">Positioning Activity</a>
   <a href="#">Personal Website</a>
   <a href="#">Personal Siteplan</a>
 </nav>
 <p>Vitor Del Frari - WDD130</p> 
 </body>
 </html>
+
+
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-top: -100px; 
+}
+#hero-box {
+  grid-column: 1/4;
+  grid-row: 1/3;
+  z-index: -1;
+}
+#hero-msg {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 100px;
+}
+#hero-msg h1, #hero-msg h4 {
+  text-align: center;
+}
+#hero-msg h4 {
+  color: white;
+}
